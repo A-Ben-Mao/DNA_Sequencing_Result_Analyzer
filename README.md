@@ -1,10 +1,10 @@
 # DNA-Sequencing-Result-Analyzer
 A Python tool for analyzing DNA sequencing files (.ab1 and .fasta),  judging heterozygous/homozygous status and mutation type, and exporting results with parameters to CSV.
 
-# DNA Sequencing Result Analyzer
-
 本工具用于 **自动分析 DNA 测序结果**，支持 **AB1 (测序原始文件)** 和 **FASTA (序列比对文件)**。  
 能够帮助快速判断样本是否为 **杂合子 / 野生纯合 / 突变纯合**，并将分析结果和使用的参数 **导出到 CSV 文件**。
+
+**小孩子不懂事，没事写着玩的.jpg**
 
 ---
 
