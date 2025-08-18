@@ -1,10 +1,13 @@
 # DNA Sequencing Result Analyzer
 
+A Python tool for analyzing DNA sequencing files (.ab1 and .fasta), judging heterozygous/homozygous status and mutation type, and exporting results with parameters to CSV.
+
 本工具用于 **自动分析 DNA 测序结果**，支持 **AB1 (测序原始文件)** 和 **FASTA (序列比对文件)**。  
 它可以帮助研究人员快速判断样本的基因型（**杂合子 / 野生纯合 / 突变纯合**），并输出结果与运行参数到 CSV 文件。  
 
 ---
 构建小鼠或者斑马鱼品系后，需要对子代剪鼠尾或者剪鱼鳍后PCR进行DNA测序后确定基因型，挨个对比我觉得太花费时间，所以借助ai写了一个自动判定测序结果的代码，以快速的判定对应样本的基因型。
+
 **小孩子不懂事，没事写着玩的.jpg**
 
 ---
