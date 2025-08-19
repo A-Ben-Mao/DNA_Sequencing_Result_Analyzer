@@ -39,7 +39,7 @@ def get_params():
     entry_q_threshold = tk.Entry(win)
     entry_q_threshold.insert(0, "20")
     entry_q_threshold.grid(row=2, column=1)
-    tk.Label(win, text="一般取 20 表示正确率约 99% (默认 20)", font=hint_font, fg="gray").grid(row=3, column=0, columnspan=2, sticky="w")
+    tk.Label(win, text="一般取 20 ，正确率较高 (默认 20)", font=hint_font, fg="gray").grid(row=3, column=0, columnspan=2, sticky="w")
 
     tk.Label(win, text="杂/纯合判断中 低质量比例阈值:").grid(row=4, column=0, sticky="e")
     entry_low_quality_ratio_threshold = tk.Entry(win)
